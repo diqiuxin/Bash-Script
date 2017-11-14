@@ -7,7 +7,7 @@
 
 ## 脚本文件详细说明 
 
-### demox.sh 
+## demox.sh 
 
 >demox.sh 是 demo.sh 的一个补充版，所以执行时会依赖 demo.sh 
 
@@ -35,7 +35,7 @@
   $ demox.sh dirName path
   ```
 
-### demo.sh 
+## demo.sh 
 
 #### 脚本说明(Script explanation):
     
