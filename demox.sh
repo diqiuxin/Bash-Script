@@ -19,7 +19,7 @@ else                                      # $1 不为空时，执行
   pwd > ${path}/path-1.txt                   #保存文件夹创建路径到 path-1.txt
   for path_1 in $(cat  ${path}/path-1.txt)   #从保存的文件中取出字符串赋给变量path_1
   do
-    echo $1"文件夹创建路径为:"${path_1}
+    echo "$1 文件夹创建路径为: ${path_1}"
   done
   
   #echo ${path}  #调试

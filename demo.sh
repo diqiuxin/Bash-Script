@@ -14,6 +14,6 @@ else                                       # $1 不存在时，执行
   echo "h1{color: red;}" > css/style.css
   echo "var string = 'Hello World';
 alert(string);" > js/main.js
-  echo 'create $1 dir success :)'
+  echo "create $1 dir success :)"
   exit 0
 fi
